@@ -88,20 +88,7 @@ $(function () {
     isMoving=true;
      /*动画执行完清除动画类*/
 
-    if(lastIndex==1){
-      setTimeout(function(){
-        $(".p2-t1").addClass("animated fadeIn").css("opacity",1)
-      },500)
-      setTimeout(function(){
-        $(".p2-t2").addClass("animated fadeIn").css("opacity",1)
-      },1000)
-      setTimeout(function(){
-        $(".p2-t3").addClass("animated fadeIn").css("opacity",1)
-      },1500)
-      setTimeout(function(){
-        $(".p2-t4").addClass("animated fadeIn").css("opacity",1)
-      },2000)
-    }
+
     if(lastIndex==3){
       setTimeout(function(){
         $(".p4-planimg").addClass('p4-plan-ani')
@@ -151,14 +138,6 @@ $(function () {
       setTimeout(function(){
           $(".p4-t6").addClass("animated rotateIn").css("opacity",1)}
         ,6800);
-    }
-    if(lastIndex==4){
-      setTimeout(function(){$(".p5-red").addClass("animated flash")},500);
-      setTimeout(function(){$(".p5-t1").addClass("animated fadeInUp").css("opacity",1)},1500);
-      setTimeout(function(){$(".p5-t2").addClass("animated fadeInUp").css("opacity",1)},2100);
-      setTimeout(function(){$(".p5-t3").addClass("animated fadeInUp").css("opacity",1)},2700);
-      setTimeout(function(){$(".p5-t4").addClass("animated fadeInUp").css("opacity",1)},3300);
-      setTimeout(function(){$(".p5-t5").addClass("animated fadeInUp").css("opacity",1)},3900);
     }
     if(lastIndex==5){
       setTimeout(function(){$(".p6-plan").addClass("animated fadeInRightBig").css("opacity",1)},500);

@@ -24,7 +24,7 @@
   from {
   }
   to {
-    -webkit-transform: translate3d(0,-100%,1px);
+    -webkit-transform: translate3d(0, -100%, 1px);
   }
 }
 
@@ -32,21 +32,21 @@
   from {
   }
   to {
-    -webkit-transform: translate3d(0,-100%,1px);
-    transform: translate3d(0,-100%,1px);
+    -webkit-transform: translate3d(0, -100%, 1px);
+    transform: translate3d(0, -100%, 1px);
   }
 }
 
 @-webkit-keyframes moveFromTop {
   from {
-    -webkit-transform: translate3d(0,-100%,1px);
+    -webkit-transform: translate3d(0, -100%, 1px);
   }
 }
 
 @keyframes moveFromTop {
   from {
-    -webkit-transform: translate3d(0,-100%,1px);
-    transform: translate3d(0,-100%,1px);
+    -webkit-transform: translate3d(0, -100%, 1px);
+    transform: translate3d(0, -100%, 1px);
   }
 }
 
@@ -54,7 +54,7 @@
   from {
   }
   to {
-    -webkit-transform: translate3d(0,100%,1px);
+    -webkit-transform: translate3d(0, 100%, 1px);
   }
 }
 
@@ -62,21 +62,21 @@
   from {
   }
   to {
-    -webkit-transform: translate3d(0,100%,1px);
-    transform:translate3d(0,100%,1px);
+    -webkit-transform: translate3d(0, 100%, 1px);
+    transform: translate3d(0, 100%, 1px);
   }
 }
 
 @-webkit-keyframes moveFromBottom {
   from {
-    -webkit-transform:translate3d(0,100%,1px);
+    -webkit-transform: translate3d(0, 100%, 1px);
   }
 }
 
 @keyframes moveFromBottom {
   from {
-    -webkit-transform: translate3d(0,100%,1px);
-    transform: translate3d(0,100%,1px);
+    -webkit-transform: translate3d(0, 100%, 1px);
+    transform: translate3d(0, 100%, 1px);
   }
 }
 
@@ -602,10 +602,12 @@
   animation: flipInY 1.5s ease both;
 
 }
-.fadeOutDown{
+
+.fadeOutDown {
   animation: fadeOutDown 1.5s ease both;
 
 }
+
 /*----------第五屏动画------------*/
 @-webkit-keyframes fadeOutDown {
   0% {
@@ -739,8 +741,33 @@
   }
 }
 
+.fadeOpcity{
+  animation: fadeOutDown 1.5s infinite both;
+}
 
 
+@keyframes fadeOpcity{
+  0%{
+    opacity: 1;
+  }
+  60%{
+    opacity: 0.4;
+  }
 
+  100%{
+    opacity: 0;
+  }
 
+}
+@-webkit-keyframes fadeOutDown {
+  0%{
+    opacity: 1;
+  }
+  60%{
+    opacity: 0.4;
+  }
 
+  100%{
+    opacity: 0;
+  }
+}
